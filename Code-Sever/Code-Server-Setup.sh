@@ -104,7 +104,7 @@ if [ "$1" == "1" ]; then
     read -p "Enter IP address: " PUBLIC_IP
     install_code_server
     configure_nginx
-    echo "Code-server is now accessible at: http://$PUBLIC_IP"
+    echo "Code-server is now accessible at: http://$PUBLIC_IP  , Pass: #11#"
 elif [ "$1" == "2" ]; then
     install_code_server
     configure_nginx
