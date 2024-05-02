@@ -30,11 +30,11 @@ This script automates the setup process for installing and configuring code-serv
     sudo ./setup_code_server.sh
     ```
 
-    Select an option from the dropdown menu:
+    Select an option For your Need :
 
     
    - 1: One-time setup (install and start code-server)
-     ```bash
+   ```bash
     sudo ./setup_code_server.sh 1
     ```
    - 2: Start code-server"
