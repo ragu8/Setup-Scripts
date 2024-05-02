@@ -32,13 +32,23 @@ This script automates the setup process for installing and configuring code-serv
 
     Select an option from the dropdown menu:
 
-    <select onchange="window.location.href=this.value">
-        <option value="">Choose an option</option>
-        <option value="./setup_code_server.sh 1">One-time setup (install and start code-server)</option>
-        <option value="./setup_code_server.sh 2">Start code-server</option>
-        <option value="./setup_code_server.sh 3">Remove code-server</option>
-        <option value="./setup_code_server.sh 4">Change IP</option>
-    </select>
+    
+   - 1: One-time setup (install and start code-server)
+     ```bash
+    sudo ./setup_code_server.sh 1
+    ```
+   - 2: Start code-server"
+    ```bash
+    sudo ./setup_code_server.sh 2
+    ```
+   - 3: Remove code-server"
+    ```bash
+    sudo ./setup_code_server.sh 3
+    ```
+   - 4: Change IP"
+    ```bash
+    sudo ./setup_code_server.sh 4
+    ```
 
 4. **Follow On-screen Prompts**
 
